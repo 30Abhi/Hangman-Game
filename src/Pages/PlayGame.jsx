@@ -42,7 +42,7 @@ function PlayGame() {
                     <div>
                         <LetterButton text={state.WordSelected} Guessed={GuessedletterArray} OnLetterClick={HandleLetterClick} />
                     </div>
-
+                    
                     <div>
                         <HangMan level={level} />
                     </div>
