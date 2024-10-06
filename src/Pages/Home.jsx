@@ -36,7 +36,7 @@ import Introimage from "../assets/IntroImage/HangamanIntro.jpg"
 
                 <Link to='/start'>
                 <div className="mt-4">
-                    <Button text="MULTI PLAYER GAME" />
+                    <Button text="Pass and Play" />
                 </div>
                 
                 </Link>
