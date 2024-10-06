@@ -29,6 +29,8 @@ function LetterButton({text,Guessed,OnLetterClick}){
                 value={letter}
                 disabled={GuessedSet.has(letter)}
                 className={`h-12 w-12 m-1 text-white rounded-md ${buttonStyle(letter)} `}
+                style={{height:'70px', width:'60px',fontSize:'22px'}}
+                
             >
                 {letter}
             </button>

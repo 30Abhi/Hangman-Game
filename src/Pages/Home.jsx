@@ -6,6 +6,7 @@ import Introimage from "../assets/IntroImage/HangamanIntro.jpg"
 
  function Home(){
     const[word,setWord]=useState('');
+    const[hint,sethint]=useState('');
 
     async function fetchWords(){
         const response=await fetch('http://localhost:3000/words');
@@ -16,6 +17,7 @@ import Introimage from "../assets/IntroImage/HangamanIntro.jpg"
         console.log(data[randomindex]);
 
         setWord(data[randomindex].wordvalue);
+        sethint(data[randomindex].wordhint);
 
     }
     useEffect(()=>{
@@ -28,7 +30,7 @@ import Introimage from "../assets/IntroImage/HangamanIntro.jpg"
                             alignItems: 'center', flexDirection:'column', height:'100vh'} }>
 
                 <img src={Introimage} alt="HANGMAN GAME"  style={{margin:'20px',padding:'20px'}}/>               
-                <Link to='/play' state={{WordSelected:word}}>
+                <Link to='/play' state={{WordSelected:word , WordHint:hint}}>
                     <Button text="SINGLE PLAYER GAME" />
                 </Link>
 

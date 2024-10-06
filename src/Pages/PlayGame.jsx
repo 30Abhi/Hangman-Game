@@ -32,17 +32,22 @@ function PlayGame() {
             flexDirection: "column",
             backgroundColor: "#F0E68C"
         }}>
-            <h1>PLAY Game</h1>
+            <h1 style={{fontSize:'70px'}}>SAVE THE MAN</h1>
             {state?.WordSelected && (
                 <>
-                    <div>
+                    <div style={{fontSize:'40px'}}>
                         <MaskedText OriginalWord={state.WordSelected} GuessedByUser={GuessedletterArray} />
                     </div>
 
                     <div>
                         <LetterButton text={state.WordSelected} Guessed={GuessedletterArray} OnLetterClick={HandleLetterClick} />
                     </div>
+
+                    <div style={{margin:'10px',padding:'10px',fontSize:'22px'}}>
+                        Hint-{state.WordHint}
+                    </div>
                     
+
                     <div>
                         <HangMan level={level} />
                     </div>
