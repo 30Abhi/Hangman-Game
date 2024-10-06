@@ -1,0 +1,74 @@
+{
+    "words": 
+    [
+        {
+            "wordvalue": "MANGO",
+            "wordhint": "Tropical fruit, often yellow or orange"
+        },
+        {
+            "wordvalue": "APPLE",
+            "wordhint": "Common fruit, often red or green"
+        },
+        {
+            "wordvalue": "INDIA",
+            "wordhint": "Country known for the Taj Mahal"
+        },
+        {
+            "wordvalue": "ELEPHANT",
+            "wordhint": "Large mammal with a trunk"
+        },
+        {
+            "wordvalue": "PYTHON",
+            "wordhint": "Popular programming language"
+        },
+        {
+            "wordvalue": "SUNFLOWER",
+            "wordhint": "Tall plant with a large yellow flower"
+        },
+        {
+            "wordvalue": "MOUNT EVEREST",
+            "wordhint": "Highest mountain in the world"
+        },
+        {
+            "wordvalue": "NILE",
+            "wordhint": "Longest river in Africa"
+        },
+        {
+            "wordvalue": "TIGER",
+            "wordhint": "Big cat with stripes"
+        },
+        {
+            "wordvalue": "JUPITER",
+            "wordhint": "Largest planet in our solar system"
+        },
+        {
+            "wordvalue": "GUITAR",
+            "wordhint": "Stringed musical instrument"
+        },
+        {
+            "wordvalue": "PYRAMID",
+            "wordhint": "Ancient structure in Egypt"
+        },
+        {
+            "wordvalue": "KANGAROO",
+            "wordhint": "Marsupial native to Australia"
+        },
+        {
+            "wordvalue": "SAHARA",
+            "wordhint": "Largest hot desert in the world"
+        },
+        {
+            "wordvalue": "EINSTEIN",
+            "wordhint": "Famous physicist known for relativity"
+        },
+        {
+            "wordvalue": "AMAZON",
+            "wordhint": "Major river in South America"
+        },
+        {
+            "wordvalue": "ROSE",
+            "wordhint": "Flower often associated with love"
+        }
+    ]
+
+}
